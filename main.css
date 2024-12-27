@@ -1,0 +1,37 @@
+.product {
+    border: 1px solid #000000;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+.firsName{
+    background-color: red;
+    border: 1px solid transparent;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: underline;
+}
+.lastName{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    border: 1px solid #000000;
+    text-align: center;
+}
+.firstNameInput{
+    border: 1px solid #000000;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+.lastNameinput{
+    border: 1px solid #000000;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
