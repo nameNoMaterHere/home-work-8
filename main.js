@@ -2,8 +2,8 @@
 "use strict"
 class Product {
     constructor(name, price) {
-      this.name = name;
-      this.price  = price;
+      this.name = name
+      this.price  = price
     }
 }
 let products = [
@@ -33,10 +33,10 @@ function findProductInPrice(){
 
         }})
         if(!FounAproduct){
-        let notFoundDiv = document.createElement("div");
-        notFoundDiv.className = "product";
-        notFoundDiv.textContent = "No products found under the price of " + price;
-        productList.appendChild(notFoundDiv);
+        let notFoundDiv = document.createElement("div")
+        notFoundDiv.className = "product"
+        notFoundDiv.textContent = "No products found under the price of " + price
+        productList.appendChild(notFoundDiv)
         }
     
 
